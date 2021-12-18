@@ -22,7 +22,7 @@ def dir():
    try:
     res=requests.get(url,headers=head)
     if res:
-     print(f"[ • ] {line} [{res.status_code}]{W}")
+     print(f"{G}[ • ] {line} [{res.status_code}]{W}")
     else:
        pass
    except KeyboardInterrupt:
